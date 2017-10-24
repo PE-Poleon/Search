@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/edt_netdisk"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_marginLeft="100dip"
+        android:layout_marginTop="100dip"
+        android:background="@drawable/edittext_bg"
+        android:hint="我要找..."
+        android:imeOptions="actionSearch"
+        android:padding="10dip"
+        android:singleLine="true"
+        android:textColor="#87a28e"
+        android:textColorHint="#bbc5bd" >
+    </EditText>
+    
+	<Button
+        android:id="@+id/btn_netdisk"
+        android:layout_width="45dip"
+        android:layout_height="45dip"
+        android:layout_marginRight="100dip"
+        android:layout_marginTop="100dip"
+        android:background="@drawable/btn"/>
+    
+</LinearLayout>

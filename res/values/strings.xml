@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Search</string>
+    <string name="action_exit">EXIT</string>
+    <string name="title_activity_magnet">MagnetActivity</string>
+    <string name="title_activity_netdisk">NetdiskActivity</string>
+
+</resources>
